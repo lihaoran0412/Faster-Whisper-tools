@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# Binary dependencies (user downloads separately)
+ffmpeg.exe
+transcribe_tool.exe
+
+# Temporary and output files
+*_audio.wav
+*_diarize.wav
+*_转写_*.txt
+*.srt
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
